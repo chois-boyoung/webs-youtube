@@ -3,7 +3,7 @@ import Main from '../components/section/Main'
 
 const Visualtrigger = () => {
   return (
-    <Main>
+    <Main title="Visual Trigger Asmr" description="시각적 자극 asmr 영상입니다.">
       Visual Trigger
     </Main>
   )

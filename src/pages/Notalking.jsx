@@ -3,8 +3,8 @@ import Main from '../components/section/Main'
 
 const Notalking = () => {
   return (
-    <Main>
-      Not Talking
+    <Main title="No Talking Asmr" description="말 없는 asmr 영상입니다.">
+      No Talking
     </Main>
   )
 }

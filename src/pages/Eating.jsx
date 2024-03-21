@@ -3,7 +3,7 @@ import Main from '../components/section/Main'
 
 const Eating = () => {
   return (
-    <Main>
+    <Main title="Eating Asmr" description="먹방 asmr 영상입니다.">
       Eating
     </Main>
   )
