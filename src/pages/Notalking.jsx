@@ -1,8 +1,11 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Notalking = () => {
   return (
-    <div>Notalking</div>
+    <Main>
+      Not Talking
+    </Main>
   )
 }
 

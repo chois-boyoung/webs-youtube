@@ -1,8 +1,11 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Makeup = () => {
   return (
-    <div>Makeup</div>
+    <Main>
+      Make Up
+    </Main>
   )
 }
 
