@@ -3,6 +3,16 @@ body {
     color: var(--white);
 }
 
+//섹션 로딩소스
+.isloading {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.isloaded {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
 //섹션 공통요소
 section{
     padding: 40px;
