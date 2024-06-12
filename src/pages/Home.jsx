@@ -9,14 +9,16 @@ import { notalkingText } from '../data/notalking'
 import { earcleaningText } from '../data/earcleaning'
 import { makeupText } from '../data/makeup'
 import { visualtriggerText } from '../data/visualtrigger'
+import { youtuberText } from '../data/youtuber'
+import { todayText } from '../data/today'
 
 
 const Home = () => {
   return (
     <Main title="CHOIS 유튜브" description="CHOIS의 ASMR 유튜브 추천!">
         
-        <Today />
-        <Youtuber /> 
+        <Today videos={todayText} id='today' />
+        <Youtuber videos={youtuberText} title='👏추천 ASMR 유튜버를 소개합니다'/> 
         <VideoSlider videos={eatingText} title='🍭귀로 느끼는 달콤한 Eating Asmr' />
         <VideoSlider videos={notalkingText} title='🔇쉿! 오로지 팅글에만 집중하게 되는 No Talking Asmr' />
         <VideoSlider videos={earcleaningText} title='👂귓속이 시원해지는 Ear Cleaning Asmr' />
