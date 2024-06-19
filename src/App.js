@@ -30,9 +30,9 @@ const App = () => {
         <Route path='/earcleaning'  element={<Earcleaning/>} />
         <Route path='/makeup'  element={<Makeup/>} />
         <Route path='/visualtrigger'  element={<Visualtrigger/>} />
-        <Route path='/channel/:channelID'  element={<Channel/>} />
-        <Route path='/video/:videoID'  element={<Video/>} />
-        <Route path='/search/:searchID'  element={<Search/>} />
+        <Route path='/channel/:channelId'  element={<Channel/>} />
+        <Route path='/video/:videoId'  element={<Video/>} />
+        <Route path='/search/:searchId'  element={<Search/>} />
         <Route path='/*'  element={<Not/>} />
       </Routes>
       </Suspense>
