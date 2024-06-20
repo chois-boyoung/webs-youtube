@@ -1,15 +1,16 @@
 import React from 'react'
 import Home from '../../pages/Home'
+import { Link } from 'react-router-dom'
 
-const logo = () => {
+const Logo = ({ toggleMenu }) => {
   return (
         <h1 className="header__logo">
-          <a href="#">
-            <em aria-hidden='true'></em>
+          <Link to='/'>
+            <em aria-hidden='true' onClick={toggleMenu}></em>
             <span>CHOIS<br />youtube</span>
-          </a>
+          </Link>
         </h1>
   )
 }
 
-export default logo
+export default Logo
