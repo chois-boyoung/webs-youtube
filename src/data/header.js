@@ -54,16 +54,24 @@ export const headerMenus = [
 
 export const searchKeyword = [
     {
-        title:"Trigger",
-        src:"/search/trigger"
+        title:"Visual Trigger",
+        src:"/search/visual trigger"
     },
     {
-        title:"Comfortable",
-        src:"/search/comfortable"
+        title:"Ear Cleaning",
+        src:"/search/ear cleaning asmr"
     },
     {
-        title:"Beauty",
-        src:"/search/beauty"
+        title:"Make Up",
+        src:"/search/make up asmr"
+    },
+    {
+        title:"Eating",
+        src:"/search/eating asmr"
+    },
+    {
+        title:"No talking",
+        src:"/search/no talking asmr"
     },
 ];
 
